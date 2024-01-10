@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+main {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.login-container {
+  height: 45rem;
+  max-width: 45%;
+  margin: auto;
+  margin-top: 7rem;
+  position: relative;
+}
+
+.login-container .bottom-content-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #000232;
+  height: 80%;
+  padding-top: 35px;
+  border-radius: 12.1px;
+}
+
+.login-container .top-content-container {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container .logo-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.login-container .welcome-container h3 {
+  color: #fff;
+}
+
+.login-container .welcome-container p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login-form .form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.login-form .form-group .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 48px;
+  background: transparent;
+  font-size: 18px;
+}
+
+.login-form .form-group input {
+  height: 3rem;
+  padding-left: 30px;
+  color: rgba(255, 255, 255, 0.8) !important;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #b689b0;
+}
+
+.login-form .form-group span.fa {
+  color: #fff;
+}
+
+.login-form .form-group input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.login-form .form-group input:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.forgot-password-wrap a{
+  color: #b689b0;
+}
+
+.get-started-wrap button{
+  background: #b689b0;
+  height: 3.5rem;
+  border: none;
+}
+
+
+.get-started-wrap button:hover{
+  background: #b689b0;
+}
+
+.sign-up-wrap p{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sign-up-wrap a{
+  color: #b689b0;
+}
